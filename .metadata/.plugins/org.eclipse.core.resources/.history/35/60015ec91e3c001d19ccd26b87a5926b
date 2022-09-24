@@ -346,45 +346,37 @@ const int MAX_LED = 4;
 int index_led = 0;
 int led_buffer[4] = {1, 2, 3, 4};
 void update7SEG(int index){
-	switch(index) {
+    switch (index){
 		case 0:
-			HAL_GPIO_WritePin(GPIOA, EN0_Pin, 0); // turn on the first SEG
-			HAL_GPIO_WritePin(GPIOA, EN1_Pin, 1); // turn off the second SEG
-			HAL_GPIO_WritePin(GPIOA, EN2_Pin, 1); // turn off the third SEG
-			HAL_GPIO_WritePin(GPIOA, EN3_Pin, 1); // turn off the fourth SEG
+			HAL_GPIO_WritePin(GPIOA, EN0_Pin, 0); // turn off the fourth SEG
 			display7SEG(led_buffer[0]);
 			break;
 		case 1:
-			HAL_GPIO_WritePin(GPIOA, EN0_Pin, 1); // turn off the first SEG
-			HAL_GPIO_WritePin(GPIOA, EN1_Pin, 0); // turn on the second SEG
-			HAL_GPIO_WritePin(GPIOA, EN2_Pin, 1); // turn off the third SEG
-			HAL_GPIO_WritePin(GPIOA, EN3_Pin, 1); // turn off the fourth SEG
+			HAL_GPIO_WritePin(GPIOA, EN1_Pin, 0); // turn off the fourth SEG
 			display7SEG(led_buffer[1]);
 			break;
 		case 2:
-			HAL_GPIO_WritePin(GPIOA, EN0_Pin, 1); // turn off the first SEG
-			HAL_GPIO_WritePin(GPIOA, EN1_Pin, 1); // turn off the second SEG
-			HAL_GPIO_WritePin(GPIOA, EN2_Pin, 0); // turn on the third SEG
-			HAL_GPIO_WritePin(GPIOA, EN3_Pin, 1); // turn off the fourth SEG
+
+			HAL_GPIO_WritePin(GPIOA, EN2_Pin, 0); // turn off the fourth SEG
 			display7SEG(led_buffer[2]);
 			break;
 		case 3:
-			HAL_GPIO_WritePin(GPIOA, EN0_Pin, 1); // turn off the first SEG
-			HAL_GPIO_WritePin(GPIOA, EN1_Pin, 1); // turn off the second SEG
-			HAL_GPIO_WritePin(GPIOA, EN2_Pin, 1); // turn off the third SEG
-			HAL_GPIO_WritePin(GPIOA, EN3_Pin, 0); // turn on the fourth SEG
+			HAL_GPIO_WritePin(GPIOA, EN3_Pin, 0);
 			display7SEG(led_buffer[3]);
 			break;
 		default:
 			break;
-	}
+    }
 }
 
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
 	if (index_led >= MAX_LED) index_led = 0;
+
+	update7SEG(index++);
+
 	if(counter <= 0){
 		counter = 100;
-		update7SEG(index_led++);
+		HAL_GPIO_TogglePin(GPIOA, DOT_Pin);
 	}
 	counter--;
 }
