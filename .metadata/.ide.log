@@ -612,3 +612,289 @@
 2022-09-24 20:29:40,753 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 2233mS.
 2022-09-24 20:29:40,754 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
 2022-09-24 20:29:40,756 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2022-09-24 21:37:04,087 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-09-24 21:37:05,687 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-09-24 21:37:10,756 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 817626032 Bytes (1073741824)
+2022-09-24 21:37:10,818 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 835406624 Bytes (1073741824)
+2022-09-24 21:37:13,186 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 925584160 Bytes (1073741824)
+2022-09-24 21:37:13,589 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-09-24 21:37:13,590 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-09-24 21:37:13,590 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-09-24 21:37:13,590 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-09-24 21:37:13,590 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8F1
+2022-09-24 21:37:13,591 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2022-09-24 21:37:13,875 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\license.tmp_save
+2022-09-24 21:37:13,924 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\license.tmp
+2022-09-24 21:37:13,953 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\gpio.tmp_save
+2022-09-24 21:37:14,014 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\gpio.tmp
+2022-09-24 21:37:14,077 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\stm32f1xx_it.c_save
+2022-09-24 21:37:14,292 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\stm32f1xx_it.c
+2022-09-24 21:37:14,296 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\stm32f1xx_it.h_save
+2022-09-24 21:37:14,350 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\stm32f1xx_it.h
+2022-09-24 21:37:14,365 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\stm32f1xx_hal_msp.c_save
+2022-09-24 21:37:14,447 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\stm32f1xx_hal_msp.c
+2022-09-24 21:37:14,450 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\system.tmp_save
+2022-09-24 21:37:14,500 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\system.tmp
+2022-09-24 21:37:14,514 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\stm32f1xx_hal_conf.h_save
+2022-09-24 21:37:14,592 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\stm32f1xx_hal_conf.h
+2022-09-24 21:37:14,609 [WARN] IPConfigManager:3148 - IP not found : TIM
+2022-09-24 21:37:14,610 [WARN] CodeGenerator:3268 - IP not found : null
+2022-09-24 21:37:14,623 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\main.h_save
+2022-09-24 21:37:14,713 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\main.h
+2022-09-24 21:37:14,723 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\main.c_save
+2022-09-24 21:37:14,833 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\main.c
+2022-09-24 21:37:15,796 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 183mS.
+2022-09-24 21:37:15,799 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2022-09-24 21:37:16,308 [INFO] ConfigFileManager:1271 - The Die is : DIE412
+2022-09-24 21:37:18,174 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 2375mS.
+2022-09-24 21:37:18,175 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2022-09-24 21:37:18,177 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2022-09-24 21:46:16,711 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-09-24 21:46:19,618 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 860061624 Bytes (1073741824)
+2022-09-24 21:46:19,689 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 876178672 Bytes (1073741824)
+2022-09-24 21:46:20,216 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 910121600 Bytes (1073741824)
+2022-09-24 21:46:20,549 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-09-24 21:46:20,549 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-09-24 21:46:20,550 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-09-24 21:46:20,550 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-09-24 21:46:20,550 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8F1
+2022-09-24 21:46:20,550 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2022-09-24 21:46:20,830 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\license.tmp_save
+2022-09-24 21:46:20,903 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\license.tmp
+2022-09-24 21:46:20,936 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\gpio.tmp_save
+2022-09-24 21:46:21,000 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\gpio.tmp
+2022-09-24 21:46:21,127 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\stm32f1xx_it.c_save
+2022-09-24 21:46:21,201 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\stm32f1xx_it.c
+2022-09-24 21:46:21,206 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\stm32f1xx_it.h_save
+2022-09-24 21:46:21,259 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\stm32f1xx_it.h
+2022-09-24 21:46:21,275 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\stm32f1xx_hal_msp.c_save
+2022-09-24 21:46:21,354 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\stm32f1xx_hal_msp.c
+2022-09-24 21:46:21,357 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\system.tmp_save
+2022-09-24 21:46:21,407 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\system.tmp
+2022-09-24 21:46:21,420 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\stm32f1xx_hal_conf.h_save
+2022-09-24 21:46:21,502 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\stm32f1xx_hal_conf.h
+2022-09-24 21:46:21,516 [WARN] IPConfigManager:3148 - IP not found : TIM
+2022-09-24 21:46:21,517 [WARN] CodeGenerator:3268 - IP not found : null
+2022-09-24 21:46:21,529 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\main.h_save
+2022-09-24 21:46:21,611 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\main.h
+2022-09-24 21:46:21,621 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\main.c_save
+2022-09-24 21:46:21,773 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\main.c
+2022-09-24 21:46:22,738 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 129mS.
+2022-09-24 21:46:22,741 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2022-09-24 21:46:23,211 [INFO] ConfigFileManager:1271 - The Die is : DIE412
+2022-09-24 21:46:25,032 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 2291mS.
+2022-09-24 21:46:25,033 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 1mS.
+2022-09-24 21:46:25,035 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2022-09-24 21:50:42,637 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 757509872 Bytes (1073741824)
+2022-09-24 21:50:42,904 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-09-24 21:50:42,904 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-09-24 21:50:42,905 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-09-24 21:50:42,905 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-09-24 21:50:42,905 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8F1
+2022-09-24 21:50:42,905 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2022-09-24 21:50:43,266 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\license.tmp_save
+2022-09-24 21:50:43,318 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\license.tmp
+2022-09-24 21:50:43,358 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\gpio.tmp_save
+2022-09-24 21:50:43,413 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\gpio.tmp
+2022-09-24 21:50:43,509 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\stm32f1xx_it.c_save
+2022-09-24 21:50:43,595 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\stm32f1xx_it.c
+2022-09-24 21:50:43,600 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\stm32f1xx_it.h_save
+2022-09-24 21:50:43,720 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\stm32f1xx_it.h
+2022-09-24 21:50:43,735 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\stm32f1xx_hal_msp.c_save
+2022-09-24 21:50:43,853 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\stm32f1xx_hal_msp.c
+2022-09-24 21:50:43,855 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\system.tmp_save
+2022-09-24 21:50:43,908 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\system.tmp
+2022-09-24 21:50:43,922 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\stm32f1xx_hal_conf.h_save
+2022-09-24 21:50:44,009 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\stm32f1xx_hal_conf.h
+2022-09-24 21:50:44,023 [WARN] IPConfigManager:3148 - IP not found : TIM
+2022-09-24 21:50:44,024 [WARN] CodeGenerator:3268 - IP not found : null
+2022-09-24 21:50:44,035 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\main.h_save
+2022-09-24 21:50:44,098 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\main.h
+2022-09-24 21:50:44,109 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\main.c_save
+2022-09-24 21:50:44,208 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\main.c
+2022-09-24 21:50:45,201 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 155mS.
+2022-09-24 21:50:45,204 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2022-09-24 21:50:45,780 [INFO] ConfigFileManager:1271 - The Die is : DIE412
+2022-09-24 21:50:47,749 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 2545mS.
+2022-09-24 21:50:47,749 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2022-09-24 21:50:47,752 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2022-09-24 21:51:52,834 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-09-24 21:51:55,122 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-09-24 21:51:57,427 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 782264808 Bytes (1073741824)
+2022-09-24 21:51:57,495 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 793872616 Bytes (1073741824)
+2022-09-24 21:51:57,995 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 829700464 Bytes (1073741824)
+2022-09-24 21:51:58,319 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-09-24 21:51:58,320 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-09-24 21:51:58,320 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-09-24 21:51:58,320 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-09-24 21:51:58,320 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8F1
+2022-09-24 21:51:58,322 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2022-09-24 21:51:58,626 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\license.tmp_save
+2022-09-24 21:51:58,692 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\license.tmp
+2022-09-24 21:51:58,720 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\gpio.tmp_save
+2022-09-24 21:51:58,780 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\gpio.tmp
+2022-09-24 21:51:58,919 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\stm32f1xx_it.c_save
+2022-09-24 21:51:59,045 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\stm32f1xx_it.c
+2022-09-24 21:51:59,049 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\stm32f1xx_it.h_save
+2022-09-24 21:51:59,111 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\stm32f1xx_it.h
+2022-09-24 21:51:59,126 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\stm32f1xx_hal_msp.c_save
+2022-09-24 21:51:59,211 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\stm32f1xx_hal_msp.c
+2022-09-24 21:51:59,214 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\system.tmp_save
+2022-09-24 21:51:59,264 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\system.tmp
+2022-09-24 21:51:59,278 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\stm32f1xx_hal_conf.h_save
+2022-09-24 21:51:59,361 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\stm32f1xx_hal_conf.h
+2022-09-24 21:51:59,381 [WARN] IPConfigManager:3148 - IP not found : TIM
+2022-09-24 21:51:59,381 [WARN] CodeGenerator:3268 - IP not found : null
+2022-09-24 21:51:59,393 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\main.h_save
+2022-09-24 21:51:59,452 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\main.h
+2022-09-24 21:51:59,462 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\main.c_save
+2022-09-24 21:51:59,611 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\main.c
+2022-09-24 21:52:00,601 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 126mS.
+2022-09-24 21:52:00,604 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2022-09-24 21:52:01,135 [INFO] ConfigFileManager:1271 - The Die is : DIE412
+2022-09-24 21:52:02,979 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 2375mS.
+2022-09-24 21:52:02,980 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2022-09-24 21:52:02,983 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2022-09-24 21:52:17,846 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 857936408 Bytes (1073741824)
+2022-09-24 21:52:17,928 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 869462128 Bytes (1073741824)
+2022-09-24 21:52:18,519 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 689298640 Bytes (1073741824)
+2022-09-24 21:52:18,830 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-09-24 21:52:18,830 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-09-24 21:52:18,831 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-09-24 21:52:18,831 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-09-24 21:52:18,831 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8F1
+2022-09-24 21:52:18,831 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2022-09-24 21:52:19,201 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\license.tmp_save
+2022-09-24 21:52:19,254 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\license.tmp
+2022-09-24 21:52:19,300 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\gpio.tmp_save
+2022-09-24 21:52:19,359 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\gpio.tmp
+2022-09-24 21:52:19,433 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\stm32f1xx_it.c_save
+2022-09-24 21:52:19,562 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\stm32f1xx_it.c
+2022-09-24 21:52:19,567 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\stm32f1xx_it.h_save
+2022-09-24 21:52:19,644 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\stm32f1xx_it.h
+2022-09-24 21:52:19,661 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\stm32f1xx_hal_msp.c_save
+2022-09-24 21:52:19,745 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\stm32f1xx_hal_msp.c
+2022-09-24 21:52:19,748 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\system.tmp_save
+2022-09-24 21:52:19,800 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\system.tmp
+2022-09-24 21:52:19,815 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\stm32f1xx_hal_conf.h_save
+2022-09-24 21:52:19,909 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\stm32f1xx_hal_conf.h
+2022-09-24 21:52:19,927 [WARN] IPConfigManager:3148 - IP not found : TIM
+2022-09-24 21:52:19,929 [WARN] CodeGenerator:3268 - IP not found : null
+2022-09-24 21:52:19,943 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\main.h_save
+2022-09-24 21:52:20,000 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\main.h
+2022-09-24 21:52:20,009 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\main.c_save
+2022-09-24 21:52:20,171 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\main.c
+2022-09-24 21:52:21,131 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 200mS.
+2022-09-24 21:52:21,135 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2022-09-24 21:52:21,603 [INFO] ConfigFileManager:1271 - The Die is : DIE412
+2022-09-24 21:52:23,377 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 2242mS.
+2022-09-24 21:52:23,377 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2022-09-24 21:52:23,380 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2022-09-24 22:04:26,096 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-09-24 22:04:28,095 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 693452880 Bytes (1073741824)
+2022-09-24 22:04:28,160 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 705423648 Bytes (1073741824)
+2022-09-24 22:04:28,673 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 740647016 Bytes (1073741824)
+2022-09-24 22:04:29,000 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-09-24 22:04:29,000 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-09-24 22:04:29,000 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-09-24 22:04:29,001 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-09-24 22:04:29,001 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8F1
+2022-09-24 22:04:29,001 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2022-09-24 22:04:29,300 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\license.tmp_save
+2022-09-24 22:04:29,395 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\license.tmp
+2022-09-24 22:04:29,443 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\gpio.tmp_save
+2022-09-24 22:04:29,511 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\gpio.tmp
+2022-09-24 22:04:29,675 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\stm32f1xx_it.c_save
+2022-09-24 22:04:29,793 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\stm32f1xx_it.c
+2022-09-24 22:04:29,797 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\stm32f1xx_it.h_save
+2022-09-24 22:04:29,880 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\stm32f1xx_it.h
+2022-09-24 22:04:29,896 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\stm32f1xx_hal_msp.c_save
+2022-09-24 22:04:29,993 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\stm32f1xx_hal_msp.c
+2022-09-24 22:04:29,998 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\system.tmp_save
+2022-09-24 22:04:30,082 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\system.tmp
+2022-09-24 22:04:30,101 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\stm32f1xx_hal_conf.h_save
+2022-09-24 22:04:30,300 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\stm32f1xx_hal_conf.h
+2022-09-24 22:04:30,324 [WARN] IPConfigManager:3148 - IP not found : TIM
+2022-09-24 22:04:30,325 [WARN] CodeGenerator:3268 - IP not found : null
+2022-09-24 22:04:30,345 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\main.h_save
+2022-09-24 22:04:30,461 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\main.h
+2022-09-24 22:04:30,480 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\main.c_save
+2022-09-24 22:04:30,670 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\main.c
+2022-09-24 22:04:31,963 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 214mS.
+2022-09-24 22:04:31,972 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2022-09-24 22:04:32,830 [INFO] ConfigFileManager:1271 - The Die is : DIE412
+2022-09-24 22:04:35,780 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 3808mS.
+2022-09-24 22:04:35,824 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 2mS.
+2022-09-24 22:04:35,829 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2022-09-24 22:05:31,019 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-09-24 22:05:33,315 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-09-24 22:05:34,870 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 747834840 Bytes (1073741824)
+2022-09-24 22:05:34,930 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 758638024 Bytes (1073741824)
+2022-09-24 22:05:35,444 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 791875032 Bytes (1073741824)
+2022-09-24 22:05:35,737 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-09-24 22:05:35,737 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-09-24 22:05:35,737 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-09-24 22:05:35,738 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-09-24 22:05:35,738 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8F1
+2022-09-24 22:05:35,738 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2022-09-24 22:05:36,107 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\license.tmp_save
+2022-09-24 22:05:36,164 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\license.tmp
+2022-09-24 22:05:36,196 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\gpio.tmp_save
+2022-09-24 22:05:36,257 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\gpio.tmp
+2022-09-24 22:05:36,379 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\stm32f1xx_it.c_save
+2022-09-24 22:05:36,458 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\stm32f1xx_it.c
+2022-09-24 22:05:36,464 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\stm32f1xx_it.h_save
+2022-09-24 22:05:36,520 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\stm32f1xx_it.h
+2022-09-24 22:05:36,535 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\stm32f1xx_hal_msp.c_save
+2022-09-24 22:05:36,656 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\stm32f1xx_hal_msp.c
+2022-09-24 22:05:36,659 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\system.tmp_save
+2022-09-24 22:05:36,711 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\system.tmp
+2022-09-24 22:05:36,726 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\stm32f1xx_hal_conf.h_save
+2022-09-24 22:05:36,802 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\stm32f1xx_hal_conf.h
+2022-09-24 22:05:36,817 [WARN] IPConfigManager:3148 - IP not found : TIM
+2022-09-24 22:05:36,817 [WARN] CodeGenerator:3268 - IP not found : null
+2022-09-24 22:05:36,830 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\main.h_save
+2022-09-24 22:05:36,892 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\main.h
+2022-09-24 22:05:36,902 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\main.c_save
+2022-09-24 22:05:37,011 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\main.c
+2022-09-24 22:05:37,963 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 158mS.
+2022-09-24 22:05:37,966 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2022-09-24 22:05:38,429 [INFO] ConfigFileManager:1271 - The Die is : DIE412
+2022-09-24 22:05:40,207 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 2241mS.
+2022-09-24 22:05:40,208 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 1mS.
+2022-09-24 22:05:40,210 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2022-09-24 22:06:44,925 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 737529992 Bytes (1073741824)
+2022-09-24 22:06:44,982 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 749280232 Bytes (1073741824)
+2022-09-24 22:06:45,504 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 785078840 Bytes (1073741824)
+2022-09-24 22:06:45,833 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-09-24 22:06:45,833 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-09-24 22:06:45,833 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-09-24 22:06:45,833 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-09-24 22:06:45,833 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8F1
+2022-09-24 22:06:45,834 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2022-09-24 22:06:46,192 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\license.tmp_save
+2022-09-24 22:06:46,261 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\license.tmp
+2022-09-24 22:06:46,356 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\gpio.tmp_save
+2022-09-24 22:06:46,428 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\gpio.tmp
+2022-09-24 22:06:46,507 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\stm32f1xx_it.c_save
+2022-09-24 22:06:46,593 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\stm32f1xx_it.c
+2022-09-24 22:06:46,597 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\stm32f1xx_it.h_save
+2022-09-24 22:06:46,658 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\stm32f1xx_it.h
+2022-09-24 22:06:46,675 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\stm32f1xx_hal_msp.c_save
+2022-09-24 22:06:46,802 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\stm32f1xx_hal_msp.c
+2022-09-24 22:06:46,805 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\system.tmp_save
+2022-09-24 22:06:46,913 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\MXTmpFiles\system.tmp
+2022-09-24 22:06:46,930 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\stm32f1xx_hal_conf.h_save
+2022-09-24 22:06:47,020 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\stm32f1xx_hal_conf.h
+2022-09-24 22:06:47,039 [WARN] IPConfigManager:3148 - IP not found : TIM
+2022-09-24 22:06:47,041 [WARN] CodeGenerator:3268 - IP not found : null
+2022-09-24 22:06:47,057 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\main.h_save
+2022-09-24 22:06:47,148 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Inc\main.h
+2022-09-24 22:06:47,158 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\main.c_save
+2022-09-24 22:06:47,302 [INFO] CodeEngine:257 - Generated code: C:\Users\nguye\Documents\GitHub\MCU_LAB2\mcu_lab2\Core\Src\main.c
+2022-09-24 22:06:48,523 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 137mS.
+2022-09-24 22:06:48,526 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2022-09-24 22:06:49,244 [INFO] ConfigFileManager:1271 - The Die is : DIE412
+2022-09-24 22:06:51,812 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 3286mS.
+2022-09-24 22:06:51,813 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2022-09-24 22:06:51,817 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
