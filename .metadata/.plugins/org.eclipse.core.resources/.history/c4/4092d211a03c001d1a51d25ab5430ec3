@@ -56,28 +56,6 @@ static void MX_TIM2_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-int counter = 100;
-const int MAX_LED = 4;
-int index_led = 0;
-int led_buffer[4] = {1, 2, 3, 4};
-int hour = 15, minute = 8, second = 50;
-void updateClockBuffer() {
-	if (hour < 10) {
-		led_buffer[0] = 0;
-		led_buffer[1] = hour;
-	} else {
-		led_buffer[0] = hour / 10;
-		led_buffer[1] = hour % 10;
-	}
-
-	if (minute < 10) {
-		led_buffer[2] = 0;
-		led_buffer[3] = minute;
-	} else {
-		led_buffer[2] = minute / 10;
-		led_buffer[3] = minute % 10;
-	}
-}
 void display7SEG(int num) {
   switch(num) {
 	  case 0 : {
@@ -195,40 +173,6 @@ void display7SEG(int num) {
 	  }
   }
 }
-void update7SEG(int index){
-	switch(index) {
-		case 0:
-			HAL_GPIO_WritePin(GPIOA, EN0_Pin, 0); // turn on the first SEG
-			HAL_GPIO_WritePin(GPIOA, EN1_Pin, 1); // turn off the second SEG
-			HAL_GPIO_WritePin(GPIOA, EN2_Pin, 1); // turn off the third SEG
-			HAL_GPIO_WritePin(GPIOA, EN3_Pin, 1); // turn off the fourth SEG
-			display7SEG(led_buffer[0]);
-			break;
-		case 1:
-			HAL_GPIO_WritePin(GPIOA, EN0_Pin, 1); // turn off the first SEG
-			HAL_GPIO_WritePin(GPIOA, EN1_Pin, 0); // turn on the second SEG
-			HAL_GPIO_WritePin(GPIOA, EN2_Pin, 1); // turn off the third SEG
-			HAL_GPIO_WritePin(GPIOA, EN3_Pin, 1); // turn off the fourth SEG
-			display7SEG(led_buffer[1]);
-			break;
-		case 2:
-			HAL_GPIO_WritePin(GPIOA, EN0_Pin, 1); // turn off the first SEG
-			HAL_GPIO_WritePin(GPIOA, EN1_Pin, 1); // turn off the second SEG
-			HAL_GPIO_WritePin(GPIOA, EN2_Pin, 0); // turn on the third SEG
-			HAL_GPIO_WritePin(GPIOA, EN3_Pin, 1); // turn off the fourth SEG
-			display7SEG(led_buffer[2]);
-			break;
-		case 3:
-			HAL_GPIO_WritePin(GPIOA, EN0_Pin, 1); // turn off the first SEG
-			HAL_GPIO_WritePin(GPIOA, EN1_Pin, 1); // turn off the second SEG
-			HAL_GPIO_WritePin(GPIOA, EN2_Pin, 1); // turn off the third SEG
-			HAL_GPIO_WritePin(GPIOA, EN3_Pin, 0); // turn on the fourth SEG
-			display7SEG(led_buffer[3]);
-			break;
-		default:
-			break;
-	}
-}
 /* USER CODE END 0 */
 
 /**
@@ -266,6 +210,7 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+  int hour = 15, minute = 8, second = 50;
   while (1)
   {
 	second++;
