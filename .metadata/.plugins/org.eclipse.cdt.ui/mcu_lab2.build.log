@@ -1,4 +1,4 @@
-14:18:31 **** Incremental Build of configuration Debug for project mcu_lab2 ****
+17:00:54 **** Incremental Build of configuration Debug for project mcu_lab2 ****
 make -j8 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
 arm-none-eabi-gcc "../Core/Src/software_timer.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/software_timer.d" -MT"Core/Src/software_timer.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/software_timer.o"
@@ -18,12 +18,12 @@ arm-none-eabi-objcopy  -O binary  mcu_lab2.elf  "mcu_lab2.bin"
    8564	     52	   1660	  10276	   2824	mcu_lab2.elf
 Finished building: default.size.stdout
  
-Finished building: mcu_lab2.hex
 Finished building: mcu_lab2.bin
+Finished building: mcu_lab2.hex
  
  
 Finished building: mcu_lab2.list
  
 
-14:18:33 Build Finished. 0 errors, 0 warnings. (took 1s.273ms)
+17:00:55 Build Finished. 0 errors, 0 warnings. (took 1s.243ms)
 

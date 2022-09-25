@@ -290,9 +290,6 @@ int main(void)
 		  // Blinking leds
 		  HAL_GPIO_TogglePin(GPIOA, DOT_Pin);
 		  HAL_GPIO_TogglePin(GPIOA, LED_RED_Pin);
-		  //
-		  if (index_led >= MAX_LED) index_led = 0;
-		  update7SEG(index_led++);
 		  setTimer1(1000);
 	  }
     /* USER CODE END WHILE */
