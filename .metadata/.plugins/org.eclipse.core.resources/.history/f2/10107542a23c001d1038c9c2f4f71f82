@@ -290,6 +290,8 @@ int main(void)
 		  // Blinking leds
 		  HAL_GPIO_TogglePin(GPIOA, DOT_Pin);
 		  HAL_GPIO_TogglePin(GPIOA, LED_RED_Pin);
+		  if (index_led >= MAX_LED) index_led = 0;
+		  update7SEG(index_led++);
 		  setTimer1(1000);
 	  }
     /* USER CODE END WHILE */
@@ -424,8 +426,13 @@ static void MX_GPIO_Init(void)
 
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
 	timerRun();
-	  if (index_led >= MAX_LED) index_led = 0;
-	  update7SEG(index_led++);
+//	if (index_led >= MAX_LED) index_led = 0;
+//	if(counter <= 0){
+//		counter = 100;
+//		update7SEG(index_led++);
+//		HAL_GPIO_TogglePin(GPIOA, DOT_Pin);
+//	}
+//	counter--;
 }
 /* USER CODE END 4 */
 
