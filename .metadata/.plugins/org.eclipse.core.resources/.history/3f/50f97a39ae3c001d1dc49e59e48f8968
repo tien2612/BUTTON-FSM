@@ -342,19 +342,14 @@ static void MX_GPIO_Init(void)
 
 /* USER CODE BEGIN 4 */
 
-int counter = 100;
+
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
-	if(counter <= 0) counter = 100;
-	if(counter >= 50){
-		HAL_GPIO_WritePin(GPIOA, EN0_Pin, 0); // turn on the first SEG
-		HAL_GPIO_WritePin(GPIOA, EN1_Pin, 1); // turn off the second SEG
-		display7SEG(1);
-	} else {
-		HAL_GPIO_WritePin(GPIOA, EN0_Pin, 1); // turn off the first SEG
-		HAL_GPIO_WritePin(GPIOA, EN1_Pin, 0); // turn on the second SEG
-		display7SEG(2);
+	if(counter <= 0){
+		counter = 100;
+		update7SEG(index_led++);
+		HAL_GPIO_TogglePin(GPIOA, DOT_Pin);
 	}
-	counter--;
+
 }
 /* USER CODE END 4 */
 

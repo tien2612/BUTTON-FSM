@@ -343,16 +343,34 @@ static void MX_GPIO_Init(void)
 /* USER CODE BEGIN 4 */
 
 int counter = 100;
+int led_mode = 0;
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
-	if(counter <= 0) counter = 100;
-	if(counter >= 50){
-		HAL_GPIO_WritePin(GPIOA, EN0_Pin, 0); // turn on the first SEG
-		HAL_GPIO_WritePin(GPIOA, EN1_Pin, 1); // turn off the second SEG
-		display7SEG(1);
-	} else {
-		HAL_GPIO_WritePin(GPIOA, EN0_Pin, 1); // turn off the first SEG
-		HAL_GPIO_WritePin(GPIOA, EN1_Pin, 0); // turn on the second SEG
-		display7SEG(2);
+	if (led_mode >= 2) led_mode = 0;
+	if (counter % 50 == 0) {
+		led_mode++;
+	}
+	switch(led_mode) {
+		case 0:
+			HAL_GPIO_WritePin(GPIOA, EN0_Pin, 0); // turn on the first SEG
+			HAL_GPIO_WritePin(GPIOA, EN1_Pin, 1); // turn off the second SEG
+			HAL_GPIO_WritePin(GPIOA, EN2_Pin, 1); // turn off the third SEG
+			HAL_GPIO_WritePin(GPIOA, EN3_Pin, 1); // turn off the fourth SEG
+			display7SEG(1);
+			break;
+		case 1:
+			HAL_GPIO_WritePin(GPIOA, EN0_Pin, 1); // turn off the first SEG
+			HAL_GPIO_WritePin(GPIOA, EN1_Pin, 0); // turn on the second SEG
+			HAL_GPIO_WritePin(GPIOA, EN2_Pin, 1); // turn off the third SEG
+			HAL_GPIO_WritePin(GPIOA, EN3_Pin, 1); // turn off the fourth SEG
+			display7SEG(2);
+			break;
+		default:
+			break;
+	}
+
+	if(counter <= 0){
+		counter = 100;
+		HAL_GPIO_TogglePin(GPIOA, DOT_Pin);
 	}
 	counter--;
 }
