@@ -16,13 +16,18 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY org.eclipse.cdt.core 1 0 2022-09-24 20:24:22.628
 !MESSAGE Indexed 'mcu_lab2' (19 sources, 78 headers) in 3.37 sec: 3,647 declarations; 13,057 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.012%)
+<<<<<<< HEAD
 !SESSION 2022-09-25 11:36:39.834 -----------------------------------------------
+=======
+!SESSION 2022-09-25 15:13:51.608 -----------------------------------------------
+>>>>>>> 2e3109862de114e1c66fb6a1653fc035c3009e46
 eclipse.buildId=Version 1.7.0
 java.version=11.0.10
 java.vendor=AdoptOpenJDK
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
 Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
+<<<<<<< HEAD
 !ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-09-25 11:40:58.628
 !MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
 
@@ -86,12 +91,27 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 !ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-09-25 14:16:31.188
 !MESSAGE Started RMI Server, listening on port 41337
 !SESSION 2022-09-25 17:00:15.934 -----------------------------------------------
+=======
+!ENTRY org.eclipse.core.resources 2 10035 2022-09-25 15:13:55.436
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-09-25 15:13:58.705
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-09-25 15:13:58.756
+!MESSAGE Log4j initialized with config file C:\Users\nguye\Documents\GitHub\MCU_LAB2\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-09-25 15:14:06.656
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2022-09-25 15:58:04.132 -----------------------------------------------
+>>>>>>> 2e3109862de114e1c66fb6a1653fc035c3009e46
 eclipse.buildId=Version 1.7.0
 java.version=11.0.10
 java.vendor=AdoptOpenJDK
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
 Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.core.resources 2 10035 2022-09-25 17:00:25.297
 !MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
 
@@ -777,3 +797,13 @@ C Model Exception: C Model Status [Element button.c does not exist.]
 	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
 !SUBENTRY 1 org.eclipse.cdt.core 4 969 2022-10-07 09:53:27.623
 !MESSAGE Element button.c does not exist.
+=======
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-09-25 15:58:11.460
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-09-25 15:58:11.510
+!MESSAGE Log4j initialized with config file C:\Users\nguye\Documents\GitHub\MCU_LAB2\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-09-25 15:58:18.069
+!MESSAGE Started RMI Server, listening on port 41337
+>>>>>>> 2e3109862de114e1c66fb6a1653fc035c3009e46

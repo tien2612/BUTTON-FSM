@@ -1,10 +1,22 @@
+<<<<<<< HEAD
 11:15:36 **** Incremental Build of configuration Debug for project mcu_lab2 ****
+=======
+15:49:39 **** Incremental Build of configuration Debug for project mcu_lab2 ****
+>>>>>>> 2e3109862de114e1c66fb6a1653fc035c3009e46
 make -j8 all 
 arm-none-eabi-size   mcu_lab2.elf 
    text	   data	    bss	    dec	    hex	filename
+<<<<<<< HEAD
    7872	     40	   1664	   9576	   2568	mcu_lab2.elf
+=======
+   7832	     24	   1640	   9496	   2518	mcu_lab2.elf
+>>>>>>> 2e3109862de114e1c66fb6a1653fc035c3009e46
 Finished building: default.size.stdout
  
 
+<<<<<<< HEAD
 11:15:37 Build Finished. 0 errors, 0 warnings. (took 244ms)
+=======
+15:49:40 Build Finished. 0 errors, 0 warnings. (took 1s.55ms)
+>>>>>>> 2e3109862de114e1c66fb6a1653fc035c3009e46
 
