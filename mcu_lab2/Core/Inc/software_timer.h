@@ -15,6 +15,7 @@ extern int TIMER_CYCLE;
 void setTimer1(int duration);
 void setTimer2(int duration);
 void setTimer3(int duration);
+void clearTimer1();
 void timerRun();
 
 #endif /* INC_SOFTWARE_TIMER_H_ */
