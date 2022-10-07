@@ -1,0 +1,32 @@
+/*
+ * fsm_manual.c
+ *
+ *  Created on: Oct 7, 2022
+ *      Author: nguye
+ */
+#include "fsm_manual.h"
+
+void fsm_manual_run() {
+	switch(status) {
+		case MAN_RED:
+			if (timer1_flag == 1) {
+				status = AUTO_RED;
+				setTimer1(RED_TIME);
+			}
+			if (button1_flag == 1) {
+				status = MAN_GREEN;
+				clearTimer1();
+				setTimer1(MAN_GREEN_TIME);
+			}
+			break;
+		case MAN_GREEN:
+			status = AUTO_RED;
+			setTimer1(RED_TIME);
+			break;
+		case MAN_YELLOW:
+			break;
+		default:
+			break;
+	}
+}
+

@@ -1,0 +1,19 @@
+/*
+ * fsm_manual.c
+ *
+ *  Created on: Oct 7, 2022
+ *      Author: nguye
+ */
+#include "fsm_manual.h"
+
+void fsm_manual_run() {
+	switch(status) {
+	case MAN_RED:
+		break;
+	case MAN_GREEN:
+		break;
+	case MAN_YELLOW:
+		break;
+	}
+}
+

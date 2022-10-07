@@ -1,0 +1,58 @@
+/*
+ * fsm_automatic.c
+ *
+ *  Created on: Sep 30, 2022
+ *      Author: nguye
+ */
+
+#include "fsm_automatic.h"
+#include "traffic.h"
+void fsm_automatic_run() {
+	switch(status) {
+		case INIT:
+			HAL_GPIO_WritePin(GPIOA, LED_RED_Pin, 0);
+			HAL_GPIO_WritePin(GPIOA, EN0_Pin, 1);
+			status = AUTO_RED;
+			setTimer1(RED_TIME);
+			break;
+
+		case AUTO_RED:
+			if (timer1_flag == 1) {
+				HAL_GPIO_WritePin(GPIOA, LED_RED_Pin, 1);
+				HAL_GPIO_WritePin(GPIOA, EN0_Pin, 0);
+				setTimer1(GREEN_TIME);
+				status = AUTO_GREEN;
+			}
+			if (button1_flag == 1) {
+				clearTimer1();
+				button1_flag = 0;
+				status = MAN_RED;
+				setTimer1(MAN_RED_TIME);
+			}
+			break;
+		case AUTO_GREEN:
+			if (timer1_flag == 1) {
+				HAL_GPIO_WritePin(GPIOA, LED_RED_Pin, 1);
+				HAL_GPIO_WritePin(GPIOA, EN0_Pin, 1);
+				setTimer1(YELLOW_TIME);
+				status = AUTO_YELLOW;
+			}
+			if (button1_flag == 1) {
+				clearTimer1();
+				button1_flag = 0;
+				status = MAN_GREEN;
+				setTimer1(MAN_GREEN_TIME);
+			}
+			break;
+		case AUTO_YELLOW:
+			if (timer1_flag == 1) {
+				HAL_GPIO_WritePin(GPIOA, LED_RED_Pin, 0);
+				HAL_GPIO_WritePin(GPIOA, EN0_Pin, 1);
+				status = AUTO_RED;
+				setTimer1(RED_TIME);
+			}
+			break;
+		default:
+			break;
+	}
+}
